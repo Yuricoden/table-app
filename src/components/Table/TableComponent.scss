@@ -1,0 +1,29 @@
+.arrow-up {
+    width: 0; 
+    height: 0; 
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid black;
+    margin-right: 7px;
+    cursor: pointer;
+  }
+  
+
+
+  .arrow-down {
+    width: 0; 
+    height: 0; 
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid black;
+    margin-left: 4px;
+    cursor: pointer;
+  }
+  
+
+  .col div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
