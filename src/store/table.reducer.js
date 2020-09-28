@@ -1,11 +1,9 @@
 import {
-  EDIT_ENTRY,
   REMOVE_ENTRY,
   GET_DATA,
   GET_DATA_ERROR,
   UPDATE_ENTRIES
 } from './table.types';
-import { act } from '@testing-library/react';
 
 const INITIAL_STATE = {
   data: [],
